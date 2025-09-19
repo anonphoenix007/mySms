@@ -4,7 +4,7 @@ $botApiToken = '7728570474:AAFa2KV2mHpi-8vMPm_g1Eioe4CaTpN3txs';
 $channelId = '1901603603';
 
 // ⚠️ CHANGE THIS TO THE PATH OF YOUR TEXT DOCUMENT
-$filePath = 'file.txt';
+$filePath = 'sms.txt';
 
 // Check if the file exists and is readable
 if (!file_exists($filePath) || !is_readable($filePath)) {
